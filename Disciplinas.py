@@ -51,11 +51,10 @@ class Disciplina:
     @classmethod
     def listar_disciplinas(cls):
 
-        #print(f'Nome Codigo Semestre: Professor: ')
+
         for disciplina in cls.Disc_cadastradas:
             
             print(f'Nome: {disciplina.nome} Codigo: {disciplina.codigo} Semestre: {disciplina.semestre} Professor: {disciplina.professor}')
-        #terminar
 
 
 
